@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.app {
+  font-family: Arial, sans-serif !important;
+}
+
+.cta-button {
+  background-color: #c4996c !important;
+  border: none !important;
+  padding: 15px 30px !important;
+  font-size: 1.2em !important;
+  cursor: pointer !important;
+}
+
+.store-section,
+.about-section,
+.location-section,
+.contact-section {
+  padding: 2rem !important;
+}
+
+.location-map {
+  height: 400px !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+
+.product-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 20px !important;
+}
+
+.our-prod {
+  font-family: "Great Vibes";
+  font-size: 3.5rem !important;
+}
+
+.product-card {
+  border: 1px solid #ddd !important;
+  padding: 1rem !important;
+  text-align: center !important;
+  flex: 1 1 calc(33% - 20px) !important;
+}
+
+.card {
+  border: none !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  background-color: rgba(
+    196,
+    153,
+    108,
+    0.1
+  ) !important; /* Light hue with transparency */
+}
+
+.card:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-img-top {
+  object-fit: cover !important;
+  height: 200px !important;
+}
+
+.btn-primary {
+  background-color: #c4996c !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #a37850 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative; /* Set context for absolute positioning */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling overflow */
+}
+
+.welcome-text {
+  font-family: "Great Vibes", cursive !important;
+  font-size: 5.5rem !important;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video scales proportionally */
+  z-index: -1; /* Places the video behind the overlay */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the parent */
+  height: 100%; /* Full height of the parent */
+  display: flex; /* Center content vertically and horizontally */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  text-align: center;
+  z-index: 1; /* Ensure it's above the video */
+}
+
+.btn-primary {
+  background-color: #c4996c;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a37850;
+}
+
+.scroll-icon {
+  animation: bounce 2s infinite !important;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0) !important;
+  }
+  50% {
+    transform: translateY(-10px) !important;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #222 !important; /* Dark background */
+  color: #fff !important;
+}
+
+.footer h5 {
+  margin-bottom: 1rem !important;
+  font-size: 1.2rem !important;
+}
+
+.footer a {
+  color: #c4996c !important;
+  text-decoration: none !important;
+}
+
+.footer a:hover {
+  text-decoration: underline !important;
+}
+
+.footer .social-media i {
+  transition: color 0.3s ease !important;
+}
+
+.footer .social-media i:hover {
+  color: #c4996c !important;
+}
+
+.footer .input-group input {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.footer .input-group button {
+  border-radius: 0 !important;
+  background-color: #c4996c !important;
+  border: none !important;
+}
+
+.footer .input-group button:hover {
+  background-color: #a37850 !important;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f8f9fa !important;
+  padding: 3rem 1rem !important;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+
+.contact-section .form-control {
+  border-radius: 0 !important;
+  border: 1px solid #ccc !important;
+}
+
+.contact-section .btn-primary {
+  background-color: #c4996c !important;
+  border: none !important;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #a37850 !important;
+}
+
+.contact-section .map-container iframe {
+  border-radius: 8px !important;
+  border: none !important;
+}
+
+/* About */
+.about-section {
+  position: relative; /* Context for overlay */
+  background-color: #f8f9fa !important; /* Light background */
+  padding: 3rem 1rem !important;
+  z-index: 1; /* Ensure content is above the overlay */
+  overflow: hidden; /* Prevent scroll issues with the overlay */
+}
+
+.about-section::before {
+  content: ""; /* Pseudo-element for the overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* Semi-transparent dark overlay */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+.about-section h2 {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+
+.about-section p.lead {
+  font-size: 1.2rem !important;
+  line-height: 1.8 !important;
+}
+
+.about-section ul {
+  padding-left: 0 !important;
+}
+
+.about-section li {
+  font-size: 1.1rem !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.about-section img {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card {
+  border-radius: 10px !important;
+}
+
+.card-title {
+  font-weight: bold !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Target the bi bi-cup-fill icon */
+.bi-cup-fill,
+.bi-droplet-half,
+.bi-people-fill {
+  color: #c4996c; /* Change this to your desired color */
+  font-size: 2rem; /* Adjust the size as needed */
+}
+
+/* Add hover effect (optional) */
+.bi-cup-fill:hover,
+.bi-droplet-half:hover,
+.bi-people-fill:hover {
+  color: #a37850; /* Change color on hover */
+  transition: color 0.3s ease; /* Smooth transition */
+}

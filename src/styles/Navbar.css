@@ -1,0 +1,88 @@
+.nav ul {
+  display: flex !important;
+  justify-content: space-around !important;
+  list-style-type: none !important;
+  background-color: #333 !important;
+  padding: 1rem !important;
+}
+
+.nav ul li a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Navbar Base */
+.navbar {
+  background-color: #333 !important; /* Dark background for navbar */
+  padding: 1rem !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto !important; /* Push links to the right */
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text for links */
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.3s ease !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c4996c !important; /* Highlight color on hover */
+}
+
+/* Hamburger Icon */
+.navbar-toggler {
+    border: none !important; /* No border for toggler */
+    background: transparent !important; /* Transparent background */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-collapse {
+    background-color: #333 !important; /* Ensure dropdown matches navbar */
+  }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #333 !important; /* Match navbar background for dropdown */
+    padding: 1rem !important; /* Add padding inside the dropdown */
+  }
+
+  .navbar-nav {
+    flex-direction: column !important; /* Stack links vertically */
+    align-items: flex-start !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0 !important; /* Adjust padding for dropdown links */
+  }
+
+  .navbar-brand img {
+    height: 60px !important; /* Smaller logo for mobile view */
+  }
+  .brand-text {
+    display: none;
+  }
+}
+
+.nav-logo {
+    height: 60px !important; /* Adjust the size as needed */
+    width: auto !important; /* Maintain aspect ratio */
+    max-width: 100% !important; /* Prevent overflow */
+    padding-right: 10px;
+  }
