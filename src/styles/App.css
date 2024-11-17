@@ -139,49 +139,6 @@
   }
 }
 
-/* Footer */
-.footer {
-  background-color: #222 !important; /* Dark background */
-  color: #fff !important;
-}
-
-.footer h5 {
-  margin-bottom: 1rem !important;
-  font-size: 1.2rem !important;
-}
-
-.footer a {
-  color: #c4996c !important;
-  text-decoration: none !important;
-}
-
-.footer a:hover {
-  text-decoration: underline !important;
-}
-
-.footer .social-media i {
-  transition: color 0.3s ease !important;
-}
-
-.footer .social-media i:hover {
-  color: #c4996c !important;
-}
-
-.footer .input-group input {
-  border: none !important;
-  border-radius: 0 !important;
-}
-
-.footer .input-group button {
-  border-radius: 0 !important;
-  background-color: #c4996c !important;
-  border: none !important;
-}
-
-.footer .input-group button:hover {
-  background-color: #a37850 !important;
-}
-
 /* Contact Section */
 .contact-section {
   background-color: #f8f9fa !important;
