@@ -1,0 +1,48 @@
+.product-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 20px !important;
+}
+
+.our-prod {
+  font-family: "Great Vibes";
+  font-size: 3.5rem !important;
+}
+
+.product-card {
+  border: 1px solid #ddd !important;
+  padding: 1rem !important;
+  text-align: center !important;
+  flex: 1 1 calc(33% - 20px) !important;
+}
+
+.card {
+  border: none !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  background-color: rgba(
+    196,
+    153,
+    108,
+    0.1
+  ) !important; /* Light hue with transparency */
+}
+
+.card:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-img-top {
+  object-fit: cover !important;
+  height: 200px !important;
+}
+
+.btn-primary {
+  background-color: #c4996c !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #a37850 !important;
+}
