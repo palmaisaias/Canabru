@@ -27,7 +27,7 @@ const App = () => {
     <div className="app">
       <Navbar />
       <header className="hero-section position-relative">
-        <video src={heroVideo} autoPlay loop muted className="hero-video" />
+        <video src={heroVideo} autoPlay loop muted playsInline className="hero-video" />
         <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center">
           <h1 className="welcome-text display-4 text-white fw-bold">
             Welcome to Canabru Coffee
