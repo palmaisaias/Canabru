@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import ContactUs from "./components/ContactUs"
 import About from "./components/About";
 import Store from "./components/Store";
+import StickyBar from "./components/StickyBar";
 // import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./styles/App.css";
@@ -47,6 +48,7 @@ const App = () => {
       <About />
       <ContactUs />
       <Footer />
+      <StickyBar />
     </div>
   );
 };
