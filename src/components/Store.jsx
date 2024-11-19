@@ -7,7 +7,7 @@ const Store = () => {
   return (
     <section id="store" className="store-section" data-aos="fade-up">
       <h2 className="our-prod text-center mb-4" data-aos="fade-right">
-        Our Products
+        A Taste of Canabru
       </h2>
       <div className="container">
         <div className="row g-4">
