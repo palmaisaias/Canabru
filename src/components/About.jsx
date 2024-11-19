@@ -11,7 +11,7 @@ const About = () => {
         data-aos="fade-up"
       >
         <div className="container">
-          <h2 className="text-center mb-4">Rooted in Quality, Driven by Community</h2>
+          <h2 className="coms text-center mb-4">Rooted in Quality, Driven by Community</h2>
           <div className="row align-items-center g-5">
             {/* Text Content */}
             <div className="col-lg-6">
