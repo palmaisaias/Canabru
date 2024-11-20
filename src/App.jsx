@@ -22,7 +22,6 @@ const App = () => {
     AOS.init({
       duration: 1200, // Animation duration in milliseconds
       once: true, // Trigger animations only once
-      disable: "mobile",
     });
   }, []);
 
