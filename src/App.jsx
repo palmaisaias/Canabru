@@ -6,6 +6,8 @@ import ContactUs from "./components/ContactUs"
 import About from "./components/About";
 import Store from "./components/Store";
 import StickyBar from "./components/StickyBar";
+import ParallaxStoreAbout from "./components/ParallaxStoreAbout";
+import ParallaxAboutContact from "./components/ParallaxAboutContact";
 import "leaflet/dist/leaflet.css";
 import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,7 +29,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <Store />
+      <ParallaxStoreAbout />
       <About />
+      <ParallaxAboutContact />
       <ContactUs />
       <Footer />
       <StickyBar />
