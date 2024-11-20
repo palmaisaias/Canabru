@@ -30,9 +30,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <Store />
-      <ParallaxSection image={image1} text="Explore More About Our Store" />
+      <ParallaxSection image={image1} text="Discover our Story" />
       <About />
-      <ParallaxSection image={image2} text="Discover Our Story" />
+      <ParallaxSection image={image2} text="" />
       <ContactUs />
       <Footer />
       <StickyBar />
