@@ -80,7 +80,7 @@ const ContactUs = () => {
 
           {/* Google Map */}
           <div className="col-lg-4">
-            <h5>Find Us Here</h5>
+          <h5>Come have a drink...or two</h5>
             <div className="map-container">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.845615882832!2d-117.6925677847621!3d34.01766528061482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3337e7e9fbed7%3A0x826f5d94a3c28c06!2s14521%20Ramona%20Ave%2C%20Chino%2C%20CA%2091710%2C%20USA!5e0!3m2!1sen!2sus!4v1689729123456!5m2!1sen!2sus"

@@ -14,7 +14,7 @@ const Footer = () => {
             <ul className="social-media list-unstyled d-flex gap-3">
               <li>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/canabru"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -23,7 +23,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/CanaBru"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -32,7 +32,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.twitter.com"
+                  href="https://x.com/i/flow/login?redirect_after_login=%2Fcanabrucoffee"
                   target="_blank"
                   rel="noreferrer"
                 >
