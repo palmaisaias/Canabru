@@ -21,3 +21,18 @@
   text-align: center;
   font-size: 2rem;
 }
+
+/* Mobile responsive styles for screens 600px and below */
+@media (max-width: 600px) {
+  .parallax-section {
+    background-attachment: scroll; /* Disable fixed attachment for better performance */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust height for smaller screens */
+  }
+
+  .parallax-overlay {
+    font-size: 1.5rem; /* Adjust text size for smaller screens */
+    padding: 0 10px; /* Add some padding for text readability */
+  }
+}
