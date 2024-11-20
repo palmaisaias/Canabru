@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
@@ -49,4 +49,31 @@
   background-color: #ffca2c;
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 428px) {
+  .sticky-bar {
+    flex-direction: row;
+  }
+
+  .sticky-bar .btn {
+    font-size: 0; /* Hide text */
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Circular buttons */
+  }
+
+  .sticky-bar .btn-secondary::before {
+    content: "📍"; /* Map Pin emoji (replace with an icon if desired) */
+    font-size: 24px;
+  }
+
+  .sticky-bar .btn-primary::before {
+    content: "📞"; /* Phone emoji (replace with an icon if desired) */
+    font-size: 24px;
+  }
 }
