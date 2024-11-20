@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /* Hero Section */
 .hero-section {
   position: relative; /* Set context for absolute positioning */
@@ -6,8 +8,22 @@
 }
 
 .welcome-text {
-  font-family: "Great Vibes", cursive !important;
-  font-size: 5.5rem !important;
+  font-family: "Lacquer", cursive !important;
+  text-align: center;
+}
+
+.lead {
+  font-family: 'Lato';
+}
+
+
+.welcome-to {
+  font-size: 3.5rem; /* Smaller size for "Welcome to" */
+}
+
+.canabru-coffee {
+  font-size: 5.5rem; /* Larger size for "Canabru Coffee" */
+  font-weight: bold;
 }
 
 .hero-video {

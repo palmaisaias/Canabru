@@ -1,8 +1,7 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons
 import "../styles/Footer.css";
-
 
 const Footer = () => {
   return (
@@ -58,18 +57,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#location"
-                  className="text-white text-decoration-none"
-                >
+                <a href="#location" className="text-white text-decoration-none">
                   Location
                 </a>
               </li>
               <li>
-                <a
-                  href="#contact"
-                  className="text-white text-decoration-none"
-                >
+                <a href="#contact" className="text-white text-decoration-none">
                   Contact
                 </a>
               </li>

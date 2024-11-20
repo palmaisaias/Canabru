@@ -5,7 +5,7 @@
 }
 
 .our-prod {
-  font-family: "Sour Gummy";
+  font-family: "Lacquer";
   font-size: 3.5rem !important;
   font-weight: 100 !important;
 }
@@ -49,13 +49,14 @@
 }
 
 .heart-icon {
+  color: aliceblue;
   position: absolute;
   top: 10px;
   right: 10px;
   font-size: 1.5rem;
   cursor: pointer;
   transition: transform 0.2s ease, color 0.3s ease;
-}
+} 
 
 .heart-icon:hover {
   transform: scale(1.2);

@@ -2,6 +2,7 @@
 .footer {
   background-color: #222 !important; /* Dark background */
   color: #fff !important;
+  margin-bottom: 45px !important;
 }
 
 .footer h5 {

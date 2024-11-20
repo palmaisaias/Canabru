@@ -15,7 +15,7 @@ const Navbar = () => {
             alt="Canabru Logo"
             className="nav-logo"
           />
-          <span className="brand-text">Canabru Coffee</span>
+          <span className="brand-text">canabru coffee</span>
         </a>
         <button
           className="navbar-toggler"
@@ -37,7 +37,7 @@ const Navbar = () => {
                 duration={500}
                 className="nav-link"
               >
-                Store
+                store
               </Link>
             </li>
             <li className="nav-item">
@@ -47,7 +47,7 @@ const Navbar = () => {
                 duration={500}
                 className="nav-link"
               >
-                About
+                about
               </Link>
             </li>
             <li className="nav-item">
@@ -57,7 +57,7 @@ const Navbar = () => {
                 duration={500}
                 className="nav-link"
               >
-                Location
+                location
               </Link>
             </li>
             <li className="nav-item">
@@ -67,7 +67,7 @@ const Navbar = () => {
                 duration={500}
                 className="nav-link"
               >
-                Contact
+                contact
               </Link>
             </li>
           </ul>

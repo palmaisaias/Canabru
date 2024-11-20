@@ -59,7 +59,7 @@ const Store = () => {
   return (
     <section id="store" className="store-section" data-aos="fade-up">
       <h2 className="our-prod text-center mb-4" data-aos="fade-right">
-        A Taste of Canabru
+        a taste of canabru
       </h2>
 
       {/* Category Filter Bar */}
