@@ -1,38 +1,43 @@
 .parallax-section {
-  position: relative;
-  height: 400px; /* Adjust height as needed */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Enables parallax scrolling */
-  background-repeat: no-repeat;
+  position: relative !important;
+  height: 400px !important; /* Default height for desktop */
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important; /* Enables parallax scrolling for desktop */
+  background-repeat: no-repeat !important;
 }
 
 .parallax-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: overlay for readability */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  font-size: 2rem;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ) !important; /* Optional: overlay for readability */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: white !important;
+  text-align: center !important;
+  font-size: 2rem !important;
 }
 
 /* Mobile responsive styles for screens 600px and below */
 @media (max-width: 600px) {
   .parallax-section {
-    background-attachment: scroll; /* Disable fixed attachment for better performance */
-    background-size: cover;
-    background-position: center;
-    height: 300px; /* Adjust height for smaller screens */
+    background-attachment: scroll !important; /* Mobile browsers often disable 'fixed' */
+    background-size: cover !important;
+    background-position: center !important;
+    height: 300px !important; /* Adjust height for smaller screens */
   }
 
   .parallax-overlay {
-    font-size: 1.5rem; /* Adjust text size for smaller screens */
-    padding: 0 10px; /* Add some padding for text readability */
+    font-size: 1.5rem !important; /* Adjust text size for smaller screens */
+    padding: 0 10px !important; /* Add some padding for text readability */
   }
 }

@@ -6,8 +6,9 @@ import ContactUs from "./components/ContactUs"
 import About from "./components/About";
 import Store from "./components/Store";
 import StickyBar from "./components/StickyBar";
-import ParallaxStoreAbout from "./components/ParallaxStoreAbout";
-import ParallaxAboutContact from "./components/ParallaxAboutContact";
+import ParallaxSection from "./components/ParallaxSection";
+import image1 from "/src/assets/Para1.jpg"; // Import images directly
+import image2 from "/src/assets/Para2.jpg";
 import "leaflet/dist/leaflet.css";
 import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,9 +30,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <Store />
-      <ParallaxStoreAbout />
+      <ParallaxSection image={image1} text="Explore More About Our Store" />
       <About />
-      <ParallaxAboutContact />
+      <ParallaxSection image={image2} text="Discover Our Story" />
       <ContactUs />
       <Footer />
       <StickyBar />
