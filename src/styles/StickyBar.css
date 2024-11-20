@@ -6,6 +6,8 @@
   background-color: #343a40;
   color: white;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   padding: 1rem;
@@ -24,4 +26,27 @@
 .sticky-bar button:hover {
   background-color: #495057;
   color: #ffc107;
+}
+
+.sticky-bar .btn {
+  width: 200px; /* Set consistent button width */
+  text-align: center;
+}
+
+.call-button {
+  position: absolute;
+  top: -20px; /* Adjust to layer the button */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; /* Ensure it appears above the other button */
+  background-color: #ffc107; /* Appealing gold color */
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.call-button:hover {
+  background-color: #ffca2c;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
